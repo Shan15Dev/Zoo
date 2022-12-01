@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
 import AnimalPreview from "../components/AnimalPreview";
+import InformationTile from "../components/InformationTile";
 
 function Animal() {
     return (
@@ -14,8 +15,8 @@ function Animal() {
             <div style={{backgroundColor: "red", paddingTop: "20pt", paddingBottom: "20pt"}}>
                 <AnimalPreview />
             </div>
-            <div style={{backgroundColor: "blue", paddingTop: "300pt"}}>
-                InformationTile
+            <div style={{backgroundColor: "blue"}}>
+                <InformationTile />
             </div>
         </div>);
 }
