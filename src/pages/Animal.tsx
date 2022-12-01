@@ -10,13 +10,13 @@ function Animal() {
                 <Navbar/>
             </div>
             <div style={{backgroundColor: "yellow", paddingTop: "10pt"}}>
-                <p>{"< ZURÜCK ZUR KARTE"}</p>
+                <p style={{fontFamily: "arial"}}>{"< ZURÜCK ZUR KARTE"}</p>
             </div>
             <div style={{backgroundColor: "red", paddingTop: "20pt", paddingBottom: "20pt"}}>
-                <AnimalPreview />
+                <AnimalPreview/>
             </div>
             <div style={{backgroundColor: "blue"}}>
-                <InformationTile />
+                <InformationTile/>
             </div>
         </div>);
 }
