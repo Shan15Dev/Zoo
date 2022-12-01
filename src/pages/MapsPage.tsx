@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar from "../components/Navbar";
 function MapsPage() {
     return (
         <div>
-            <div style={{backgroundColor: "green", paddingTop:"50pt"}}>
-                Navbar
+            <div style={{backgroundColor: "green", paddingTop:"10pt"}}>
+                <Navbar />
             </div>
             <div style={{backgroundColor: "red", paddingTop: "200pt"}}>
                 Searching
